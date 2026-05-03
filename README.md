@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Dynasty Reels - Celestial Fortune
 
-# Run and deploy your AI Studio app
+A premium Chinese-themed slot experience featuring Mahjong motifs and elegant Imperial aesthetics.
 
-This contains everything you need to run your app locally.
+## 🚀 Getting Started
 
-View your app in AI Studio: https://ai.studio/apps/384b07f0-bb5b-48be-842f-512e9f73baf4
+To run this project locally:
 
-## Run Locally
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-**Prerequisites:**  Node.js
+## 🛠 Tech Stack
 
+- **Framework**: React 19
+- **Build Tool**: Vite 6
+- **Styling**: Tailwind CSS 4
+- **Animation**: Motion
+- **Icons**: Lucide React
+- **PWA**: vite-plugin-pwa
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Deployment (GitHub Pages)
+
+This project is configured to automatically deploy to GitHub Pages when you push to the `main` branch.
+
+1. Go to your repository **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+3. Push your code to the `main` branch.
+4. Your site will be available at `https://<username>.github.io/<repo-name>/`.
+
+## 🎨 Theme
+
+The game features two main themes:
+- **Imperial**: Gold and Deep Red aesthetics.
+- **Jade**: Emerald and Obsidian aesthetics.
+
+## 🎰 Features
+
+- 20+ Dynamic Paylines
+- Imperial & Jade Themes
+- Free Spins Bonus Round
+- Turbo Mode for faster experience
+- Progressive Multipliers
+- Sound Effects & Immersive Atmospehre
